@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Services | TechNova Computers</title>
+    <!-- Google Fonts & Font Awesome 6 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Subtle Ambient Glows -->
+    <div class="bg-ambient-lights">
+        <div class="ambient-orb orb-1"></div>
+        <div class="ambient-orb orb-2"></div>
+        <div class="ambient-orb orb-3"></div>
+    </div>
+    <div class="cyber-grid-overlay"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="brand-logo">
+                <div class="brand-icon-box">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <span>TechNova<span>.</span></span>
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link">Products</a>
+                <a href="services.html" class="nav-link active">Services</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="enquiry.html" class="nav-link">Enquiry</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="enquiry.html" class="btn btn-primary btn-sm nav-enquire-btn">
+                    <span>Quick Enquiry</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section style="padding: 60px 0 30px 0;">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-tools"></i> Expert Technical Services
+                    </div>
+                    <h1 class="section-title">Computer Solutions & Repair Center</h1>
+                    <p class="section-desc">From complex chip-level soldering to high-speed solid state upgrades and custom liquid-cooled PC builds, TechNova delivers certified engineering care.</p>
+                </div>
+
+                <!-- Services Grid (9 Core Services) -->
+                <div class="services-grid">
+
+                    <!-- 1. Computer/Laptop Repair -->
+                    <div class="service-card glass-card">
+                        <div>
+                            <div class="service-card-top">
+                                <div class="service-icon-box">
+                                    <i class="fas fa-laptop-medical"></i>
+                                </div>
+                                <span class="service-badge">Hardware Diagnostics</span>
+                            </div>
+                            <h3 class="service-title">Computer / Laptop Repair</h3>
+                            <p class="service-desc">Complete board-level troubleshooting, shattered screen replacement, broken hinge reconstruction, keyboard repair, and charging port fixes.</p>
+                            <ul class="service-features-list">
+                                <li><i class="fas fa-check-circle"></i> No Display & Blue Screen Fixes</li>
+                                <li><i class="fas fa-check-circle"></i> Liquid Damage Cleaning & Micro-Soldering</li>
+                                <li><i class="fas fa-check-circle"></i> OEM Original Replacement Screens</li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+                            <span style="font-size: 0.85rem; color: var(--accent-cyan);"><i class="fas fa-clock"></i> Same-Day Diagnostic</span>
+                            <a href="enquiry.html?service=Computer%20and%20Laptop%20Repair" class="btn btn-outline btn-sm">Book Service</a>
+                        </div>
+                    </div>
+
+                    <!-- 2. Windows Installation -->
+                    <div class="service-card glass-card">
+                        <div>
+                            <div class="service-card-top">
+                                <div class="service-icon-box">
+                                    <i class="fab fa-windows"></i>
+                                </div>
+                                <span class="service-badge">Operating System</span>
+                            </div>
+                            <h3 class="service-title">Windows Installation & Setup</h3>
+                            <p class="service-desc">Clean installation of genuine Windows 11 / Windows 10 Pro with full driver integration, Microsoft security patches, and performance optimizations.</p>
+                            <ul class="service-features-list">
+                                <li><i class="fas fa-check-circle"></i> Official Digital License Activation</li>
+                                <li><i class="fas fa-check-circle"></i> Chipset & Graphics Driver Configuration</li>
+                                <li><i class="fas fa-check-circle"></i> Removal of OEM Bloatware</li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+                            <span style="font-size: 0.85rem; color: var(--accent-cyan);"><i class="fas fa-clock"></i> 2-Hour Express</span>
+                            <a href="enquiry.html?service=Windows%20Installation" class="btn btn-outline btn-sm">Book Service</a>
+                        </div>
+                    </div>
+
+                    <!-- 3. Software Installation -->
+                    <div class="service-card glass-card">
+                        <div>
+                            <div class="service-card-top">
+                                <div class="service-icon-box">
+                                    <i class="fas fa-compact-disc"></i>
+                                </div>
+                                <span class="service-badge">Productivity & Dev</span>
+                            </div>
+                            <h3 class="service-title">Software Installation & Utilities</h3>
+                            <p class="service-desc">Installation and configuration of essential productivity suites, coding IDEs (VS Code, Python, Git), CAD, Adobe Creative Cloud, and utility drivers.</p>
+                            <ul class="service-features-list">
+                                <li><i class="fas fa-check-circle"></i> Microsoft Office & PDF Suites</li>
+                                <li><i class="fas fa-check-circle"></i> Programming Environments & SDKs</li>
+                                <li><i class="fas fa-check-circle"></i> Performance Monitoring Utilities</li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+                            <span style="font-size: 0.85rem; color: var(--accent-cyan);"><i class="fas fa-clock"></i> Instant Walk-In</span>
+                            <a href="enquiry.html?service=Software%20Installation" class="btn btn-outline btn-sm">Book Service</a>
+                        </div>
+                    </div>
+
+                    <!-- 4. Virus & Malware Removal -->
+                    <div class="service-card glass-card">
+                        <div>
+                            <div class="service-card-top">
+                                <div class="service-icon-box">
+                                    <i class="fas fa-shield-virus"></i>
+                                </div>
+                                <span class="service-badge">Cyber Security</span>
+                            </div>
+                            <h3 class="service-title">Virus & Malware Removal</h3>
+                            <p class="service-desc">Deep-cleaning of trojans, browser hijackers, spyware, ransomware threats, and cryptomining malware without harming your personal files.</p>
+                            <ul class="service-features-list">
+                                <li><i class="fas fa-check-circle"></i> Multi-Engine Deep Threat Scan</li>
+                                <li><i class="fas fa-check-circle"></i> Registry Repair & Browser Reset</li>
+                                <li><i class="fas fa-check-circle"></i> Antivirus & Firewall Setup</li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+                            <span style="font-size: 0.85rem; color: var(--accent-cyan);"><i class="fas fa-clock"></i> 3-4 Hours</span>
+                            <a href="enquiry.html?service=Virus%20and%20Malware%20Removal" class="btn btn-outline btn-sm">Book Service</a>
+                        </div>
+                    </div>
+
+                    <!-- 5. Hardware Upgrade -->
+                    <div class="service-card glass-card">
+                        <div>
+                            <div class="service-card-top">
+                                <div class="service-icon-box">
+                                    <i class="fas fa-microchip"></i>
+                                </div>
+                                <span class="service-badge">Component Upgrades</span>
+                            </div>
+                            <h3 class="service-title">Hardware Upgrade Solutions</h3>
+                            <p class="service-desc">Modernize your desktop or laptop with powerful GPUs, multi-core processors, high-wattage Gold power supplies, and quiet cooling coolers.</p>
+                            <ul class="service-features-list">
+                                <li><i class="fas fa-check-circle"></i> Graphics Card (GPU) Installations</li>
+                                <li><i class="fas fa-check-circle"></i> Liquid AIO & Tower Cooler Mounting</li>
+                                <li><i class="fas fa-check-circle"></i> Thermal Paste Re-application (Kryonaut)</li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+                            <span style="font-size: 0.85rem; color: var(--accent-cyan);"><i class="fas fa-clock"></i> 1-2 Hours</span>
+                            <a href="enquiry.html?service=Hardware%20Upgrade" class="btn btn-outline btn-sm">Book Service</a>
+                        </div>
+                    </div>
+
+                    <!-- 6. SSD/RAM Upgrade -->
+                    <div class="service-card glass-card">
+                        <div>
+                            <div class="service-card-top">
+                                <div class="service-icon-box">
+                                    <i class="fas fa-memory"></i>
+                                </div>
+                                <span class="service-badge">Speed Acceleration</span>
+                            </div>
+                            <h3 class="service-title">SSD & RAM Memory Upgrade</h3>
+                            <p class="service-desc">Transform lagging mechanical hard drives into lightning-fast NVMe/SATA SSDs. Expand system multitasking capacity with high-frequency dual-channel RAM.</p>
+                            <ul class="service-features-list">
+                                <li><i class="fas fa-check-circle"></i> High-Speed PCIe Gen4 & Gen3 SSDs</li>
+                                <li><i class="fas fa-check-circle"></i> Exact 1:1 OS Disk Cloning (Zero Data Loss)</li>
+                                <li><i class="fas fa-check-circle"></i> 8GB, 16GB, 32GB, 64GB DDR4/DDR5 Support</li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+                            <span style="font-size: 0.85rem; color: var(--accent-cyan);"><i class="fas fa-clock"></i> 60 Mins Express</span>
+                            <a href="enquiry.html?service=SSD%20and%20RAM%20Upgrade" class="btn btn-outline btn-sm">Book Service</a>
+                        </div>
+                    </div>
+
+                    <!-- 7. Custom PC Building -->
+                    <div class="service-card glass-card">
+                        <div>
+                            <div class="service-card-top">
+                                <div class="service-icon-box">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <span class="service-badge">Enthusiast Builds</span>
+                            </div>
+                            <h3 class="service-title">Custom PC Architecture</h3>
+                            <p class="service-desc">End-to-end bespoke PC construction tailored for competitive gaming, deep learning neural networks, 3D rendering, and video editing studios.</p>
+                            <ul class="service-features-list">
+                                <li><i class="fas fa-check-circle"></i> Component Synergy & Bottleneck Checks</li>
+                                <li><i class="fas fa-check-circle"></i> Clean Stealth Cable Routing</li>
+                                <li><i class="fas fa-check-circle"></i> 24-Hour Stress Testing & Thermal Audit</li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+                            <span style="font-size: 0.85rem; color: var(--accent-cyan);"><i class="fas fa-clock"></i> 24-48 Hours</span>
+                            <a href="enquiry.html?service=Custom%20PC%20Building" class="btn btn-outline btn-sm">Book Service</a>
+                        </div>
+                    </div>
+
+                    <!-- 8. Networking Support -->
+                    <div class="service-card glass-card">
+                        <div>
+                            <div class="service-card-top">
+                                <div class="service-icon-box">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+                                <span class="service-badge">Infrastructure</span>
+                            </div>
+                            <h3 class="service-title">Networking Support & Wi-Fi</h3>
+                            <p class="service-desc">Complete office and home network design, high-speed mesh Wi-Fi configurations, router security hardening, LAN cabling, and IP camera integrations.</p>
+                            <ul class="service-features-list">
+                                <li><i class="fas fa-check-circle"></i> Wi-Fi Dead Zone Elimination</li>
+                                <li><i class="fas fa-check-circle"></i> Gigabit Switch & Patch Panel Crimping</li>
+                                <li><i class="fas fa-check-circle"></i> Secure Remote Access (VPN) Setup</li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+                            <span style="font-size: 0.85rem; color: var(--accent-cyan);"><i class="fas fa-clock"></i> On-Site / Remote</span>
+                            <a href="enquiry.html?service=Networking%20Support" class="btn btn-outline btn-sm">Book Service</a>
+                        </div>
+                    </div>
+
+                    <!-- 9. Data Backup -->
+                    <div class="service-card glass-card">
+                        <div>
+                            <div class="service-card-top">
+                                <div class="service-icon-box">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <span class="service-badge">Disaster Recovery</span>
+                            </div>
+                            <h3 class="service-title">Data Backup & Recovery</h3>
+                            <p class="service-desc">Secure recovery from formatted, corrupted, or non-booting drives. Automated hybrid backup solutions to NAS and cloud servers for students and offices.</p>
+                            <ul class="service-features-list">
+                                <li><i class="fas fa-check-circle"></i> Accidental Deletion & Partition Recovery</li>
+                                <li><i class="fas fa-check-circle"></i> Non-Booting Windows File Extraction</li>
+                                <li><i class="fas fa-check-circle"></i> 3-2-1 Automated Backup Configurations</li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+                            <span style="font-size: 0.85rem; color: var(--accent-cyan);"><i class="fas fa-clock"></i> Priority Service</span>
+                            <a href="enquiry.html?service=Data%20Backup%20and%20Recovery" class="btn btn-outline btn-sm">Book Service</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 4-Step Repair Workflow -->
+                <div style="margin-top: 90px;">
+                    <div class="section-header">
+                        <div class="section-badge">
+                            <i class="fas fa-route"></i> Service Process
+                        </div>
+                        <h2 class="section-title">How Our Repair Lab Operates</h2>
+                        <p class="section-desc">Transparent 4-step workflow ensuring total peace of mind, zero hidden charges, and data privacy.</p>
+                    </div>
+
+                    <div class="why-grid">
+                        <div class="why-card glass-card">
+                            <div class="why-icon-box">01</div>
+                            <h3 class="why-title">1. Diagnostic Intake</h3>
+                            <p class="why-desc">We examine your computer in front of you, perform preliminary bench tests, and log all symptoms into our system.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <div class="why-icon-box">02</div>
+                            <h3 class="why-title">2. Transparent Estimate</h3>
+                            <p class="why-desc">We call or WhatsApp you with the exact root cause, part costs, and time estimate. Work begins only after your explicit approval.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <div class="why-icon-box">03</div>
+                            <h3 class="why-title">3. Precision Repair</h3>
+                            <p class="why-desc">Our certified engineers utilize ESD-safe repair benches, ultrasonic cleaners, and genuine replacement parts.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <div class="why-icon-box">04</div>
+                            <h3 class="why-title">4. Benchmark & Delivery</h3>
+                            <p class="why-desc">Every repaired device goes through rigorous thermal, memory, and stress benchmarks before customer handover.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action Banner -->
+                <div class="cta-box" style="margin-top: 70px;">
+                    <div class="cta-content">
+                        <h2>Experiencing Hardware or System Issues?</h2>
+                        <p>Bring your device to TechNova Computers or message our technicians. We offer prompt diagnosis and student discounts on repairs.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="enquiry.html" class="btn btn-primary">
+                            <i class="fas fa-wrench"></i>
+                            <span>Schedule Service</span>
+                        </a>
+                        <a href="tel:8849329011" class="btn btn-secondary">
+                            <i class="fas fa-phone"></i>
+                            <span>Call 8849329011</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Quick Actions -->
+    <div class="floating-actions">
+        <a href="https://wa.me/918849329011?text=Hello%20TechNova%20Computers,%20I%20need%20a%20service%20booking" target="_blank" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <button id="back-to-top" class="float-btn float-top" aria-label="Back to Top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <a href="index.html" class="brand-logo">
+                        <div class="brand-icon-box">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <span>TechNova<span>.</span></span>
+                    </a>
+                    <p>
+                        "Computer Shop" — Certified repairs, SSD memory expansions, custom PC building, and virus cleanup.
+                    </p>
+                    <div style="display: flex; gap: 12px; margin-top: 16px;">
+                        <a href="tel:8849329011" class="btn btn-outline btn-sm"><i class="fas fa-phone"></i> Call Now</a>
+                        <a href="mailto:krishasojitra03@gmail.com" class="btn btn-outline btn-sm"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="products.html"><i class="fas fa-chevron-right"></i> Products</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="enquiry.html"><i class="fas fa-chevron-right"></i> Enquiry Form</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>All Services</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Laptop & PC Repair</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Windows Installation</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Virus & Malware Removal</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> SSD / RAM Upgrades</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Custom PC Building</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Service Center</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong>Service Hotline:</strong><br>
+                            <a href="tel:8849329011">8849329011</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Support Email:</strong><br>
+                            <a href="mailto:krishasojitra03@gmail.com">krishasojitra03@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Bench Timings:</strong><br>
+                            Mon - Sat: 10:00 AM - 9:00 PM<br>
+                            Sunday: 11:00 AM - 6:00 PM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar">
+                <div>
+                    © <span class="current-year">2026</span> TechNova Computers. All Rights Reserved.
+                </div>
+                <div>
+                    <span class="project-tag"><i class="fas fa-code"></i> Designed for BCA AI Project Demonstration</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
